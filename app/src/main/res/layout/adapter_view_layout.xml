@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp">
+    <!--android:clickable="true"
+    android:focusableInTouchMode="true"-->
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_weight="30"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:inputType="text|number"
+        android:text=""
+        android:layout_weight="70"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/custom_edit_text"
+        android:imeOptions="actionDone"/>
+</RelativeLayout>
